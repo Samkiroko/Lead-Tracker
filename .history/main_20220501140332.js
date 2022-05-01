@@ -11,6 +11,6 @@ buttonEl.addEventListener('click', () => {
 })
 
 for (let i = 0; i < myLeads.length; i++) {
-  ulEl.textContent += myLeads[i]
+  ulEl.textContent = myLeads[i]
   console.log(myLeads[i])
 }
