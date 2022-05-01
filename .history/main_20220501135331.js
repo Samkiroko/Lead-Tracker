@@ -2,9 +2,6 @@
 
 const buttonEl = document.getElementById('input-btn')
 const inputEl = document.getElementById('input-el')
-const ulEl = document.getElementById('ul-el')
-
-console.log(ulEl)
 
 let myLeads = ['www.awesomelead.com', 'www.epiclead.com', 'www.greatlead.com']
 
@@ -13,6 +10,6 @@ buttonEl.addEventListener('click', () => {
   console.log(myLeads)
 })
 
-for (let i = 0; i < myLeads.length; i++) {
+for (i = 0; i < myLeads.length; i++) {
   console.log(myLeads[i])
 }

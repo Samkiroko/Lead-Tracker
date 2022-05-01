@@ -2,9 +2,6 @@
 
 const buttonEl = document.getElementById('input-btn')
 const inputEl = document.getElementById('input-el')
-const ulEl = document.getElementById('ul-el')
-
-console.log(ulEl)
 
 let myLeads = ['www.awesomelead.com', 'www.epiclead.com', 'www.greatlead.com']
 
