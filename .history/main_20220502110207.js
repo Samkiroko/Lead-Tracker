@@ -15,7 +15,7 @@ buttonEl.addEventListener('click', () => {
 function renderLeads() {
   let listItem = ''
   for (let i = 0; i < myLeads.length; i++) {
-    listItem += "<li><a href='#' target='_blank'>" + myLeads[i] + '</a></li>'
+    listItem += "<li><a href='#'>" + myLeads[i] + '</a></li>'
   }
 
   ulEl.innerHTML = listItem

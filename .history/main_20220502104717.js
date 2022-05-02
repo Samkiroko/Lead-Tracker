@@ -8,14 +8,13 @@ let myLeads = []
 
 buttonEl.addEventListener('click', () => {
   myLeads.push(inputEl.value)
-  inputEl.value = ''
   renderLeads()
 })
 
 function renderLeads() {
   let listItem = ''
   for (let i = 0; i < myLeads.length; i++) {
-    listItem += "<li><a href='#' target='_blank'>" + myLeads[i] + '</a></li>'
+    listItem += '<li>' + myLeads[i] + '</li>'
   }
 
   ulEl.innerHTML = listItem
