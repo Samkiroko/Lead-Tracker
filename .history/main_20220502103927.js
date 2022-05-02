@@ -14,10 +14,10 @@ buttonEl.addEventListener('click', () => {
 let listItem = ''
 
 for (let i = 0; i < myLeads.length; i++) {
-  listItem += '<li>' + myLeads[i] + '</li>'
+  listItem += myLeads
 }
 
-ulEl.innerHTML = listItem
+ulEl.innerHTML += '<li>' + listItem + '</li>'
 //  const li = document.createElement('li')
 //  li.textContent = myLeads[i]
 //  ulEl.append(li)
