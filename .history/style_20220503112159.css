@@ -39,15 +39,13 @@ button {
 ul {
     color: #5f9341;
     list-style: none;
-    padding-left: 0;
-    margin-top: 20px;
+    padding-left: o;
 }
 
 li {
     color: #5f9341;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 5px;
 }
 
 li a:hover {
@@ -56,6 +54,6 @@ li a:hover {
     border: none;
 }
 
-li a {
+a {
     color: #5f9341;
 }
